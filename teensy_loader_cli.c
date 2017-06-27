@@ -1061,11 +1061,13 @@ static const struct {
 
 	// Add duplicates that match friendly Teensy Names
 	// Match board names in boards.txt
-	{"TEENSY2",   32256,   128},
-	{"TEENSY2PP", 130048,   256},
-	{"TEENSYLC",     63488,   512},
+	{"TEENSY2",     32256,   128},
+	{"TEENSY2PP",  130048,   256},
+	{"TEENSYLC",    63488,   512},
 	{"TEENSY30",   131072,  1024},
 	{"TEENSY31",   262144,  1024},
+	{"TEENSY32",   262144,  1024},
+	{"FASITO",     262144,  1024},
 	{"TEENSY35",   524288,  1024},
 	{"TEENSY36",  1048576,  1024},
 #endif
