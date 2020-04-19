@@ -1,4 +1,10 @@
-# Teensy Loader - Command Line Version#
+# Flasher for [Fasito](https://github.com/faircoin/Fasito)
+
+This version of **Teensy Loader** contains a minor change for FairCoin: the MCU type FASITO has been added which is only an alias for TEENSY32.
+
+Flash the firmware like this: `teensy_loader_cli --mcu=FASITO -w Fasito.hex`
+
+# Teensy Loader - Command Line Version
 
 The Teensy Loader is available in a command line version for advanced users who want to automate programming, typically using a Makefile. For most uses, the graphical version in Automatic Mode is much easier. 
 
